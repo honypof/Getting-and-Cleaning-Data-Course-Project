@@ -12,7 +12,7 @@ This repo contains following files
 
 and a folder.
 
-* "UCI HAR Dataset" --- Data for the project. it was downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "here"). Please read "README.txt" in the folder for detail.
+* "UCI HAR Dataset" --- Data for the project. It was downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "here"). Please read "README.txt" in the folder for detail.
 
 ### Expranation about "run_analysis.R" 
 
