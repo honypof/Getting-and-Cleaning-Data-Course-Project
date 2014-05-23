@@ -10,7 +10,7 @@ This repo contains following files
 * tidyaverage.txt --- data file geneated by "run_analysis.R" and data in the folder "UCI HAR Dataset"
 * CodeBook.md	--- explains in detail about "run_analysis.R" and "tidyaverage.txt"
 
-and a folder.
+and a folder
 
 * "UCI HAR Dataset" --- Data for the project. It was downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "here"). Please read "README.txt" in the folder for detail.
 
