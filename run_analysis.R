@@ -49,7 +49,7 @@ stds$activities <- comby
 stds$subjects <- combSub[,1]
 
 ##*3 Uses descriptive activity names to name the activities in the data set
-acNames <- read.table("./activity_labels.txt")
+acNames <- read.table("./UCI HAR Dataset/activity_labels.txt")
 acNames <- as.vector(acNames[,2])
 comby2 <- as.vector(comby$activities)
 
