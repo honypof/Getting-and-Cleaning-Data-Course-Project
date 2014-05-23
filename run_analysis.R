@@ -1,5 +1,3 @@
-setwd("~/getdata-003/UCI HAR Dataset")
-
 ##Load data and check
 testx <- read.table("./UCI HAR Dataset/test/X_test.txt")
 #head(testx)
