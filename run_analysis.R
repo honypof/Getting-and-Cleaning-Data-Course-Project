@@ -1,31 +1,31 @@
 setwd("~/getdata-003/UCI HAR Dataset")
 
 ##Load data and check
-testx <- read.table("./test/X_test.txt")
+testx <- read.table("./UCI HAR Dataset/test/X_test.txt")
 #head(testx)
 #str(testx)
 ##'data.frame':  2947 obs. of  561 variables:
-testy <- read.table("./test/y_test.txt")
+testy <- read.table("./UCI HAR Dataset/test/y_test.txt")
 #head(testy)
 #str(testy)
 ##'data.frame':  2947 obs. of  1 variable:
-testSub <- read.table("./test/subject_test.txt")
+testSub <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 #head(testSub)
 #str(testSub)
 ##'data.frame':  2947 obs. of  1 variable:
-trainx <- read.table("./train/X_train.txt")
+trainx <- read.table("./UCI HAR Dataset/train/X_train.txt")
 #head(trainx)
 #str(trainx)
 ##'data.frame':  7352 obs. of  561 variables:
-trainy <- read.table("./train/y_train.txt")
+trainy <- read.table("./UCI HAR Dataset/train/y_train.txt")
 #head(trainy)
 #str(trainy)
 ##'data.frame':  7352 obs. of  1 variable:
-trainSub <- read.table("./train/subject_train.txt")
+trainSub <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 #head(trainSub)
 #str(trainSub)
 ##'data.frame':  7352 obs. of  1 variable:
-features <- read.table("./features.txt")
+features <- read.table("./UCI HAR Dataset/features.txt")
 #head(features)
 #str(features)
 ##'data.frame':  561 obs. of  2 variables:
