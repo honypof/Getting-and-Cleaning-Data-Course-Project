@@ -30,8 +30,7 @@ features <- read.table("./UCI HAR Dataset/features.txt")
 
 ##*1  Merges the training and the test sets to create one data set.
 combx <- rbind(testx, trainx)
-
-##Add subjects information and name columns
+##Add activities and subjects information and names of columns
 names(combx) <- features[,2]
 comby <- rbind(testy, trainy)
 names(comby) <- "activities"
